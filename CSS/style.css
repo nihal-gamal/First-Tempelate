@@ -1,0 +1,420 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1600px;
+}
+/* #nav-bar
+{
+ position: sticky; 
+ top: 0; 
+ z-index: 10px;
+} */
+.navbar
+{
+    background-color:#02164b;  
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: white !important ;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/* banner section */
+#banner
+{
+    background-image:url(/images/banner-bg.png) ;
+    height: auto;
+    padding: 200px 0px 90px 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.topic
+{
+    background-color: #626874;
+    border-radius: 20px;
+}
+.topic h2
+{
+    color:#02164b ;
+    font-size: 40px;
+}
+.topic h1
+{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.topic p
+{
+    color: white;
+}
+
+
+/* .topic img
+{
+    background-color: white;
+    background-size:  ;
+} */
+.contact-us 
+{
+   position: relative;
+   top: 20px;
+   background-color:#0a2f59 !important;
+   border-radius: 10px !important;
+   border-color: #0a2f59 !important;
+   padding: 15px 55px !important;
+   /* padding-left:  45px !important; 
+   padding-right:  45px !important;
+   padding-top:  15px !important;
+   padding-bottom:  15px !important; */
+}
+/* about us section */
+.about-us
+{
+    margin-top: 120px ;
+    line-height: 100px;
+    margin-bottom: 40px ;  
+}
+.aboutus-line::after
+{
+    content: "";
+    background:#68c8fe
+    ;
+    height: .5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: block;
+}
+/* gym section */
+#gym
+{
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.gym-section
+{
+    font-size: 18px;
+}
+.about-more
+{
+    color:white ;
+    background-color: #fe6703;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    margin-top: 35px;
+}
+.about-more:hover
+{
+    color: black;
+}
+
+/* our classes section */
+.our-classes
+{
+    margin-top: 120px ;
+    line-height: 100px;
+    margin-bottom: 40px ;  
+}
+.ourclasses-line::after
+{
+    content: "";
+    background:#68c8fe;
+    
+    height: .5px;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: block;
+}
+.our-classes img
+{
+   
+}
+.our-classes h5
+{
+    margin-top: 20px;
+}
+.see-more
+{
+    background-color: black !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-color: black !important;
+    
+
+}
+.see-more:hover
+{
+    background-color: #fe6703 !important;
+}
+.arr1 , .arr2{
+    position: absolute;
+    top: 407px !important;
+}
+.arr2{
+    position: absolute;
+    right: 1181px !important;
+}
+.prev{
+    background-color: white !important;
+}
+.about-img{
+    max-width: 137%  !important;
+}
+.three-imgs{
+     align-items: center;
+    justify-content: center;
+}
+/* partener section */
+#partener-section
+{
+    background-image: url(/images/img-4.png);
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.partener-section p
+{
+    color: white;
+    margin-top: 40px;
+    font-size: 16.5px;
+
+}
+.partener-section h1
+{
+    color: white;
+    padding-top: 80px;
+    font-size: 76px;
+}
+.trainer
+{
+    background-color: #fe6703;
+    color: white;
+    margin-bottom: 80px;
+    border-radius: 11px !important;
+    outline: none !important; 
+}
+.trainer:hover
+{
+    color: black;
+}
+/* our price section */
+.price
+{
+    margin-top: 80px;
+}
+.price::after
+{
+    content: "";
+    background:#68c8fe;
+    
+    height: .5px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: block;
+}
+.cont-1,.cont-3
+{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    border-radius: 20px;
+   
+}
+
+.cont-2
+{
+    background-color:#0a2f59 ;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.free
+{
+    color:#fe6703 ;
+}
+.three-prices
+{
+    align-items: center;
+    justify-content: center;
+
+}
+.three-btn
+{
+    align-items: center;
+    justify-content: center;  
+}
+.select-plan1,.select-plan3
+{
+    background-color:#0a2f59 ;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px !important;
+    outline: none !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+.select-plan1:hover,.select-plan3:hover
+{
+    background-color:#fe6703 ;
+}
+.select-plan2
+{
+    background-color:#fe6703 ;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px !important;
+    outline: none !important;
+    border-color:#fe6703 ;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+.select-plan2:hover
+{
+    color: black;
+}
+.contac-us
+{
+    margin-top: 80px;
+
+}
+.contac-us::after
+{
+    content: "";
+    background:#68c8fe;
+    
+    height: .5px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: block;
+}
+/* request section */
+.request
+{
+    background-image: url(/images/contact-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-top: 90px;
+    padding-left: 165px !important;
+    
+}
+.request h1
+{
+    color: white;
+}
+.your-name
+{
+    background-color: transparent; 
+    width: 555px;
+    padding: 15px;
+    border-left: transparent;
+    border-top: transparent;
+    border-right:transparent ;
+    outline: none;
+    color: white;
+}
+.message
+{
+    height: 80px;
+   
+}
+.send
+{
+    background-color: black;
+    color: white;
+    padding-left: 55px !important;
+    padding-right: 55px !important;
+    margin-top: 25px !important;
+    border-color: black ;
+    border-radius: 11px !important;
+}
+/* Copyright section */
+#Copyright
+{
+    background-color: #02164b;
+}
+.gate
+{
+    color: white;
+    position: relative;
+    top: -9px;
+
+    
+}
+
+.icon
+{
+    margin-top: 130px ;
+   margin-left: 0px;
+}
+.icon-1
+{
+    margin-left: 150px;
+    margin-top: 130px ;
+}
+.end
+{
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pic
+{
+    padding: 5px;
+}
+.pic:hover
+{
+    cursor: pointer;
+}
+
+.newyork
+{
+   position: relative;
+   top: -18px;
+   right: -70px;
+}
+.end p
+{
+    color: white;
+}
+.end span:hover
+{
+    color: #fe6703;
+    cursor: pointer;
+
+}
+@media screen and (max-width:400px){
+    #hideBtn{
+        display: none;
+    }
+}
+
+
+
